@@ -61,4 +61,4 @@
 #   }
 
 server '50.19.170.253', user: 'app', roles: %w{app db web}
-set :ssh_options, keys: '/home/df.ssh/id_rsa'
+set :ssh_options, keys: '/home/df/.ssh/id_rsa'
